@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background = 'color : #35b5e8'>
+
+            #camera
+            <a-camera
+            position = '0 -7 16'
+            >
+            </a-camera>
+
+            #plane/base
+            <a-plane
+            color = 'brown'
+            scale = '50 50 50'
+            rotation = '-90 0 0'
+            position = '0 -11 0'
+            ></a-plane>
+
+            #box
+            <a-box 
+            color = 'grey'
+            scale = '5'
+            >
+            </a-box>
+
+            <a-box 
+            color = 'grey'
+            scale = '5'
+            rotation = '0 0 90'
+            >
+            </a-box>
+
+            <a-box 
+            color = 'grey'
+            scale = '5'
+            rotation = '0 0 45'
+            >
+            </a-box>
+
+            <a-box 
+            color = 'grey'
+            scale = '5'
+            rotation = '0 0 135'
+            >
+            </a-box>
+
+            <a-box 
+            color = 'grey'
+            scale = '5'
+            rotation = '0 0 135'
+            >
+            </a-box>
+            
+            #octahedron
+            <a-octahedron
+            color = 'red'
+            position = '0 0 0'
+            scale = '2.7 2.7 2.7'
+            >
+            </a-octahedron>
+
+            #sphere
+            <a-sphere
+            color = '#ff9054'
+            scale = '2 2 2'
+            ></a-sphere>
+
+            #cylinder
+            <a-cylinder
+            color = 'yellow'
+            position = ' 12 -7 0'
+            scale = '2.6 13 2.6'
+            rotation = '0 0 55w'
+            ></a-cylinder>
+            
+            <a-cylinder
+            color = 'grey'
+            position = '14 -9 3'
+            scale = '3 1 3'
+            rotation = ' 90 0  0'
+            ></a-cylinder>
+
+            <a-cylinder
+            color = 'grey'
+            position = '14 -9 -2'
+            scale = '3 1 3'
+            rotation = ' 90 0 0'
+            ></a-cylinder>
+            
+        </a-scene>
+    </body>
+</html>
